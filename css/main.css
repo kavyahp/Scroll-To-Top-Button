@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: basic-sans, sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+}
+
+.paragraph {
+  padding-left: 11em;
+  padding-top: 1em;
+  padding-right: 10em;
+}
+
+.button {
+  z-index: 999;
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.button__svg {
+  width: 50px;
+  height: 40px;
+  color: #000;
+  position: fixed;
+}
+/*# sourceMappingURL=main.css.map */
