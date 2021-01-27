@@ -45,5 +45,10 @@ body {
   height: 40px;
   color: #000;
   position: fixed;
+  transition: 500ms ease;
+}
+
+.button__svg:hover {
+  color: #e76f51;
 }
 /*# sourceMappingURL=main.css.map */
